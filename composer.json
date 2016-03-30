@@ -1,0 +1,11 @@
+{
+    "autoload": {
+        "psr-4": {
+            "Sneek\\": "src/Sneek/"
+        }
+    },
+
+    "require": {
+        "mandrill/mandrill": "^1.0"
+    }
+}
