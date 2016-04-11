@@ -151,6 +151,7 @@ class Scanner
         echo '== Usage ==' . PHP_EOL;
         echo 'Memory Usage: ' . $memoryUsage . PHP_EOL;
         echo 'Scanned Files: ' . count($this->scanned_files) . PHP_EOL;
+        echo 'Infected Files: ' . count($this->infected_files) . PHP_EOL;
         echo '================' . PHP_EOL;
     }
 }
